@@ -1,5 +1,5 @@
 body {
-    font-family: 'Patrick Hand', cursive;;
+    font-family: 'Amatic SC', cursive;
 }
 
 section {
@@ -13,6 +13,11 @@ section {
     height: 100vh;
     color: wheat;
     font-size: 40px;
+}
+
+.logo {
+    height: 150px;
+    margin-left: 20px;
 }
 
 footer {
@@ -45,10 +50,24 @@ h1 {
 
 p {
     margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.july-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .july-text {
     margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.socials {
+    padding-bottom: 200px;
 }
 
 .button {
@@ -57,4 +76,17 @@ p {
     background-color: coral;
     border-radius: 30px;
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 7px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #F79489;
+}
+
+.button:active {
+    background-color: #FADCD9;
+    color: #F8AFA6;
 }
